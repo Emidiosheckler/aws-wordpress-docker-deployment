@@ -1,6 +1,6 @@
 # AWS WordPress Deployment with Docker
 
-##markdown
+##
 ![AWS](https://img.shields.io/badge/AWS-EC2-orange)
 ![Docker](https://img.shields.io/badge/Docker-Compose-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
@@ -12,7 +12,7 @@ This project demonstrates the deployment of a WordPress application using Docker
 ## Architecture
 Client → Internet → AWS EC2 → Docker Network → WordPress Container → MySQL Container
 
-## Technologies Used
+##  Technologies Used
 - AWS EC2
 - Ubuntu 22.04
 - Docker
