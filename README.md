@@ -21,6 +21,7 @@ Production-ready WordPress deployment using Docker Compose on AWS EC2.
 - Port 80 exposed via Security Group
 
 Infrastructure Overview
+
 Client → Internet → AWS EC2 → Docker Network → WordPress Container → MySQL Container
 
 ##  Technologies Used
