@@ -1,4 +1,4 @@
-# AWS WordPress Deployment with Docker
+# Production-ready WordPress Deployment with Docker on AWS EC2
 
 ##
 ![AWS](https://img.shields.io/badge/AWS-EC2-orange)
@@ -10,6 +10,17 @@
 # AWS EC2 + Docker WordPress Deployment
 
 Production-ready WordPress deployment using Docker Compose on AWS EC2.
+
+This project demonstrates how to deploy a WordPress application 
+using Docker containers on an AWS EC2 instance.
+
+The infrastructure includes:
+
+- Docker containerization
+- MySQL database container
+- WordPress application container
+- AWS EC2 cloud infrastructure
+- Port exposure for public access
 
 ## Architecture
 
