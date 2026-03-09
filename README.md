@@ -47,8 +47,8 @@ Client → Internet → AWS EC2 → Docker Compose → WordPress Container + MyS
 ## Security Configuration
 
 - EC2 Security Group configured with:
-      - SSH (Port 22)
-      - HTTP (Port 80)
+  - SSH (Port 22)
+  - HTTP (Port 80)
 - Containers isolated inside Docker networking
 
 ## Why Docker?
