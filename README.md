@@ -94,8 +94,12 @@ The WordPress application was successfully deployed and made accessible through 
 
 ## Screenshots
 
-- WordPress Home
-- WordPress Dashboard
+### WordPress Home
+![WordPress Home](screenshots/wordpress-home.png)
+
+### WordPress Dashboard
+![WordPress Dashboard](screenshots/wordpress-dashboard.png)
+
 
 ## About the Author
 
