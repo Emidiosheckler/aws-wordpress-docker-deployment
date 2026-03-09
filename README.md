@@ -44,14 +44,14 @@ sudo docker ps
 curl localhost
 ````
 
-##Security Configuration
+## Security Configuration
 
 - EC2 Security Group configured with:
 - SSH (Port 22)
 - HTTP (Port 80)
 - Containers isolated inside Docker networking
 
-##Why Docker?
+## Why Docker?
 
 - Docker was used to provide:
 - environment consistency
@@ -60,21 +60,21 @@ curl localhost
 - faster redeployment
 - portability across environments
 
-##Manual Deployment vs Docker Compose
+## Manual Deployment vs Docker Compose
 Manual setup
 
 - individual service installation
 - harder maintenance
 - more error-prone reconfiguration
 
-##Docker Compose
+## Docker Compose
 
 - infrastructure as code
 - easier service orchestration
 - faster redeployment
 - cleaner and more reproducible setup
 
-##Troubleshooting
+## Troubleshooting
 
 - During deployment, I solved the following issues:
 - Port 80 conflict caused by Nginx running on the host
@@ -83,20 +83,21 @@ Manual setup
 - Docker daemon startup issues
 - Service exposure validation using curl localhost
 
-##Result
+## Result
 
 The WordPress application was successfully deployed and made accessible through the EC2 public IP.
-Public URL
-http://54.236.210.172
-Admin URL
-http://54.236.210.172/wp-admin
 
-##Screenshots
+- Public URL
+- http://54.236.210.172
+- Admin URL
+- http://54.236.210.172/wp-admin
+
+## Screenshots
 
 WordPress Home
 WordPress Dashboard
 
-##About the Author
+## About the Author
 
 AWS-focused Cloud/DevOps beginner with hands-on experience deploying containerized applications on EC2. 
 This project demonstrates:
