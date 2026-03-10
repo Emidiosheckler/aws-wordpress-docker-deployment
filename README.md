@@ -64,7 +64,7 @@ Docker was used to provide:
 ## Manual Deployment vs Docker Compose
 
 ### Manual setup
-... individual service installation
+- individual service installation
 - harder maintenance
 - more error-prone reconfiguration
 
@@ -82,7 +82,7 @@ During deployment, I solved the following issues:
 - Docker Compose YAML syntax errors
 - Container naming conflicts from previous test runs
 - Docker daemon startup issues
-- Service exposure validation using curl localhost
+- Service exposure validation using `curl localhost`
 
 ## Result
 
