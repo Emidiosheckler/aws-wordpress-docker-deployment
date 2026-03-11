@@ -54,6 +54,7 @@ curl localhost
 ## Why Docker?
 
 Docker was used to provide:
+
 - environment consistency
 - easier deployment management
 - service isolation
@@ -78,6 +79,7 @@ Docker was used to provide:
 ## Troubleshooting
 
 During deployment, I solved the following issues:
+
 - Port 80 conflict caused by Nginx running on the host
 - Docker Compose YAML syntax errors
 - Container naming conflicts from previous test runs
