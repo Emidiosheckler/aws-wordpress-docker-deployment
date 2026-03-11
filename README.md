@@ -37,7 +37,7 @@ Client → Internet → AWS EC2 → Docker Compose → WordPress Container + MyS
 
 ## Deployment Commands
 
-``` bash
+```bash
 
 sudo systemctl stop nginx
 sudo docker compose up -d
